@@ -1,4 +1,4 @@
-    if game.Players.LocalPlayer.Name == "AmyAnthony6" or game.Players.LocalPlayer.Name == "" then
+    if game.Players.LocalPlayer.Name == "" or game.Players.LocalPlayer.Name == "" then
     if getgenv().skid == true then
     print("hi")
     end
